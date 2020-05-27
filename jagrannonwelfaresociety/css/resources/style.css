@@ -131,6 +131,23 @@ ul{
 .card3 p{
   margin-left: 25px;
 }
+/*------------------------Partner-section--------------------*/
+
+.section-partner h2{
+  text-align: center;
+  margin-top:70px;
+}
+
+.section-partner p{
+  text-align: center;
+}
+
+.partner-img{
+  height:100px;
+  width:auto;
+  margin:50px 160px;
+}
+
 
 /*------------------------Footer--------------------*/
 .footer{
