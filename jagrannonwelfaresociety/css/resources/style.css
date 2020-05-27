@@ -36,7 +36,8 @@ header{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-image:linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url("https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image:linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) ,
+   url("https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: cover;
 }
 
@@ -47,26 +48,28 @@ ul{
 }
 
 .navbar{
-  position:relative;
-  left:49%;
-  top:-65%;
-  transform: translate(-50%,-50%);
+  position:absolute;
+  left:63%;
+  bottom:0;
 }
 
 .navbar li{
-  margin:20px;
+  margin:10px;
   display:inline-block;
 }
 
 .navbar li a{
   text-decoration: none;
   color:#fff;
-  border-bottom: transparent;
   transition: ease-in 0.3s;
+  padding:5px 10px;
 }
 
 .navbar li a:hover{
-  border-bottom: white solid 1px;
+  padding:5px 10px;
+  background-color: #fff;
+  color:#2ecc71;
+  border-radius: 2px;
 }
 
 .header-text p{
@@ -79,24 +82,54 @@ ul{
 
 /*----------------section-------------*/
 
-.section {
+.section-choose {
   height:100vh;
   background-color: azure;
   overflow:hidden;
 }
 
-.section h2{
+.section-choose h2{
   position:relative;
-  left:47%;
-  margin-top: 5%;
+  left:41%;
+  margin-top: 3%;
   color:#010;
 }
 
-.section-hr{
-  margin-left:26%;
-  width:50%;
-  margin-top:20px;
-  border-bottom:#2ecc71 solid 3px;
+.card{
+  margin-top: 60px;
+  margin-left:80px;
+  padding:170px 0;
+  background-color:beige;
+  position:relative;
+  border-radius: 5px;
+  text-align: center;
+  width:10%;
+}
+
+.card ion-icon{
+  font-size: 50px;
+  margin-top: 10px;
+  left:40%;
+  top:0;
+  position:absolute;
+}
+
+.card p{
+  position:absolute;
+  text-align: center;
+  left:6px;
+  line-height: 30px;
+}
+
+.card h3{
+  top:25%;
+  margin-left: 55px;
+  position:absolute;
+  text-align: center;
+}
+
+.card3 p{
+  margin-left: 25px;
 }
 
 /*------------------------Footer--------------------*/
