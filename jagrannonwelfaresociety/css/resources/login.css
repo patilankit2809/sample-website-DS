@@ -7,7 +7,7 @@
   position: relative;
   left:26%;
   padding: 5%;
-  background: #0062cc;
+  background: #2ecc71;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
   border-radius: 5px;
 }
@@ -30,7 +30,7 @@
 
 .login-form-2 .btnSubmit{
   font-weight: 600;
-  color: #0062cc;
+  color: #2ecc71;
   background-color: #fff;
 }
 .login-form-2 .ForgetPwd{

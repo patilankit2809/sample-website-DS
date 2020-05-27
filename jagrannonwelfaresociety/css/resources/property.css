@@ -18,8 +18,8 @@ header h1{
 
 .navbar{
     position: relative;
-    top:30%;
-    left:40%;
+    top:-15%;
+    left:83%;
 }
 
 .navbar ul{
@@ -158,3 +158,4 @@ section{
     text-decoration: none;
     color: #fff;
 }
+/*---------------------Footer--------------------*/
