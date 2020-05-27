@@ -1,5 +1,14 @@
+body{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image:linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(img/login.jpg);
+  overflow-x: hidden;
+}
+
 .login-container{
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 5%;
 }
 
@@ -41,3 +50,33 @@
   left:35%;
 }
 
+ul{
+  float: right;
+  list-style-type: none;
+  margin-right: 1%;
+}
+
+.navbar{
+  position:absolute;
+  left:63%;
+  bottom:0;
+}
+
+.navbar li{
+  margin:10px;
+  display:inline-block;
+}
+
+.navbar li a{
+  text-decoration: none;
+  color:#fff;
+  transition: ease-in 0.3s;
+  padding:5px 10px;
+}
+
+.navbar li a:hover{
+  padding:5px 10px;
+  background-color: #fff;
+  color:#2ecc71;
+  border-radius: 2px;
+}
