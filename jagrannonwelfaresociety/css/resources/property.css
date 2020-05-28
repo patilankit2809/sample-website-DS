@@ -71,9 +71,12 @@ form{
     padding:10px 11px;
 }
 
+/*------------------------Footer--------------------*/
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
 section{
     padding: 100px 0;
+    margin-bottom:-120px;
 }
 
 .details-card {
@@ -181,6 +184,8 @@ section{
     height:50vh;
     color:white;
     position:relative;
+    margin-top: 100px;
+    overflow: hidden;
   }
   
   .footer h2{
@@ -188,6 +193,7 @@ section{
   }
   
   .footer p{
+    text-align: left;
     line-height: 30px;
     margin-top: 10px;
   }
@@ -195,18 +201,25 @@ section{
   .form-text{
     font-size: 12px;
     font-weight: 300;
+    position: absolute;
+    bottom:-20%;
   }
-  #submit-btn{
+
+  footer #submit-btn{
+    position: absolute;
+    right:73%;
     color:#7f8c8d;
     cursor:pointer;
   }
-  
+
   .footer ion-icon{
     margin-right: 10px;
     margin-top:15px;
     margin-bottom:20px;
     font-size: 30px;
-    color:white;
+    color:#fff;
+    
+    display: inline-block;
   }
   
   .footer ion-icon:hover{
@@ -216,20 +229,24 @@ section{
   }
   
   footer form input{
-    margin:25px 0;
+    position: absolute;
+    bottom:-20px;
+    right:90%;
+    margin:0 0;
     background-color:#34495e;
     border:none;
     padding:10px;
     border-radius:100px;
   }
   
+#subscribe{
+  position: absolute;
+}
+
   .footer div{
-    float:left;
     margin-left: 15px;
     margin-top: 20px;
   }
-  
-  
   
   .footer-extension{
     color:white;
@@ -242,7 +259,7 @@ section{
   .footer-nav{
     position:relative;
     bottom:-20%;
-    right:65%;
+    left:3%;
     color:white;
   }
   
@@ -282,7 +299,7 @@ section{
   .copyright{
     position:relative;
     float:right;
-    right:-350px;
+    right:50px;
     color:white;
     bottom:-30%;
   }
