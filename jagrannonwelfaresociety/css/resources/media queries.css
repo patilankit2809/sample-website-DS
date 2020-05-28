@@ -1,0 +1,702 @@
+@media only screen and (max-width: 800px){
+    h1 {
+        font-size: 2em !important;
+    }
+    header h3{
+        margin-top: 10%;
+    }
+    .navbar{
+        left:37%;
+    }
+    .navbar li{
+        margin: 5px;
+    }
+    .navbar li a{
+        font-size: 16px;
+    }
+    .section-properties h2{
+        font-size:25px;
+    }
+    .section-choose h2{
+        font-size: 25px;
+        margin-left: -3%;
+    }
+    .card{
+        margin-top: 5%;
+        padding: 120px 0;
+        margin-left: 50px;
+    }
+    .card p{
+        font-size: smaller;
+    }
+    .card ion-icon{
+        font-size: 24px;
+    }
+    .section h3{
+        top: 50px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .section h3:nth-child(2){
+        margin-left: 10px;
+    }
+    .section h3:nth-child(3){
+        margin-left: -100px;
+    }
+    .section p{
+        margin-left: -10px;
+        margin-top: -4px;
+        font-size: 10px;
+    }
+    .section p:nth-child(3){
+        margin-left: 5px;
+    }
+    .section-partner h2{
+        font-size: 30px;
+        margin-top: 70px;
+    }
+    .section-partner p{
+        font-size: 15px;
+    }
+    .footer h2{
+        font-size: smaller;
+    }
+    .footer p{
+        font-size: 10px;
+        line-height: 15px;
+        width: 40%;
+    }
+    .footer div:nth-child(4){
+        position: absolute;
+        margin-top: 2.5%;
+        margin-left: 40%;
+    }
+    .footer div:nth-child(2){
+        display: none;
+    }
+    .footer div:nth-child(3){
+        display: none;
+    }
+    .footer-nav a{
+        font-size: 10px;
+    }
+    .footer ol{
+        margin-top: -45px;
+    }
+    .footer ol li{
+        font-size: 10px;
+    }
+    .footer-nav a{
+        margin-right: 20px;
+    }
+    .footer form{
+        padding: 2px;
+    }
+    .copyright{
+        font-size: smaller;
+        right: -200px;
+    }
+    .image-grid-cover {
+        min-height: 200px;
+    }
+    .partner-img{
+        margin:0;
+        margin-left: 100px;
+    }
+    .image-grid-item:nth-child(3){
+        display: none;
+    }
+    .image-grid-item:nth-child(4){
+        display: none;
+    }
+    .properties form{
+        position:relative;
+        top:40%;
+        left:28%;
+        border:none;
+    }
+    
+    #fname{
+        width:40%;
+        padding:10px;
+        border: none;
+    }
+    
+    .properties #submit-btn{
+        border:none;
+        padding:10px 11px;
+    }
+  }
+
+
+@media only screen and (min-width: 800px){
+    h1 {
+        font-size: 2em !important;
+    }
+    header h3{
+        margin-top: 5%;
+    }
+    .navbar{
+        left:51%;
+    }
+    .navbar li{
+        margin: 5px;
+    }
+    .navbar li a{
+        font-size: 16px;
+    }
+    .section-choose h2{
+        font-size: 25px;
+    }
+    .card{
+        margin-top: 5%;
+        margin-left: 65px;
+        padding: 140px 0;
+    }
+    .card p{
+        font-size: smaller;
+    }
+    .card ion-icon{
+        font-size: 30px;
+    }
+    .section h3{
+        top: 70px;
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .section p{
+        margin-left: -20px;
+        margin-top: -4px;
+        font-size: 10px;
+    }
+    .section-partner h2{
+        font-size: 30px;
+        margin-top: 70px;
+    }
+    .section-partner p{
+        font-size: 15px;
+    }
+    .footer h2{
+        font-size: smaller;
+    }
+    .footer p{
+        font-size: 10px;
+        line-height: 15px;
+        width: 40%;
+    }
+    .footer-nav a{
+        font-size: 10px;
+    }
+    .footer ol li{
+        font-size: 10px;
+    }
+    .footer-nav a{
+        margin-right: 20px;
+    }
+    .footer form{
+        margin-top: -10%;
+    }
+    .copyright{
+        font-size: smaller;
+        right: -200px;
+    }
+    .partner-img{
+        margin-left: 15.7%;
+    }
+    .form-text{
+        font-size: smaller;
+    }
+    .image-grid-cover {
+        min-height: 300px;
+    }
+    .section h3:nth-child(2){
+        margin-left: 40px;
+    }
+    .section h3:nth-child(3){
+        margin-left: -80px;
+    }
+    .section p:nth-child(3){
+        margin-left: 25px;
+    }
+    .section p:nth-child(1){
+        margin-left: -30px;
+    }
+    .partner-img{
+        margin:0;
+        margin-left: 16%;
+    }
+    .footer ion-icon{
+        font-size: 20px;
+    }
+    .footer div:nth-child(3){
+        display: none;
+    }
+    .image-grid-item:nth-child(3){
+        display: none;
+    }
+    .image-grid-item:nth-child(4){
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+    h1 {
+        font-size: 2em !important;
+    }
+    header h3{
+        margin-top: 10%;
+    }
+    .navbar{
+        left:60%;
+    }
+    .navbar li{
+        margin: 5px;
+    }
+    .navbar li a{
+        font-size: 16px;
+    }
+    .section-properties h2{
+        font-size:35px;
+    }
+    .section-choose h2{
+        font-size: 40px;
+        margin-left: -1.4%;
+    }
+    .card{
+        margin-top: 5%;
+        padding: 170px 0;
+        margin-left: 90px;
+    }
+    .card ion-icon{
+        font-size: 45px;
+    }
+    .section h3{
+        top: 80px;
+        left: 12%;
+        font-size: 30px;
+    }
+    .section h3:nth-child(2){
+        margin-left: 30px;
+    }
+    .section h3:nth-child(3){
+        margin-left: -100px;
+    }
+    .section p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .section p:nth-child(3){
+        margin-left: 5px;
+    }
+    .section-partner h2{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .section-partner p{
+        font-size: 30px;
+    }
+    /* .footer h2{
+        font-size: smaller;
+    }
+    .footer p{
+        font-size: 10px;
+        line-height: 15px;
+        width: 40%;
+    }
+    .footer div:nth-child(4){
+        position: absolute;
+        margin-top: 2.5%;
+        margin-left: 40%;
+    }
+    .footer div:nth-child(2){
+        display: none;
+    }
+    .footer div:nth-child(3){
+        display: none;
+    }
+    .footer-nav a{
+        font-size: 10px;
+    }
+    .footer ol{
+        margin-top: -45px;
+    }
+    .footer ol li{
+        font-size: 10px;
+    }
+    .footer-nav a{
+        margin-right: 20px;
+    }
+    .footer form{
+        padding: 2px;
+    }
+    .copyright{
+        font-size: smaller;
+        right: -200px;
+    } */
+
+    /*------------------------Footer--------------------*/
+.footer{
+    background-color: #2c3e50;
+    height:50vh;
+    color:white;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  .footer h2{
+    color:#2ecc71;
+  }
+  
+  .footer p{
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  
+  .form-text{
+    font-size: 12px;
+    font-weight: 300;
+  }
+  #submit-btn{
+    color:#7f8c8d;
+    cursor:pointer;
+  }
+  
+  .footer ion-icon{
+    margin-right: 10px;
+    margin-top:15px;
+    margin-bottom:20px;
+    font-size: 30px;
+    color:white;
+  }
+  
+  .footer ion-icon:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.2s;
+    color:#2ecc71;
+  }
+  
+  .footer form input{
+    margin:25px 0;
+    background-color:#34495e;
+    border:none;
+    padding:10px;
+    border-radius:100px;
+    font-size: 20px;
+  }
+  
+  .footer div{
+    float:left;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  
+  
+  .footer-extension{
+    color:white;
+    height:10vh;
+    position:relative;
+    background-color: #34495e;
+  }
+  
+  .footer-nav{
+    position:relative;
+    bottom:-20%;
+    right:65%;
+    color:white;
+  }
+  
+  .footer ol li{
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .footer ol li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+  }
+  
+  .footer ol li a:hover{
+    border-bottom: solid #2ecc71 1px;
+    color:#2ecc71;
+  }
+  
+  .footer-nav li{
+    display: inline-block;
+  }
+  
+  .footer-nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-right:50px;
+  }
+  
+  .footer-nav a:hover{
+    border-bottom: solid #2ecc71 1px;
+    color:#2ecc71;
+  }
+  
+  .copyright{
+    position:relative;
+    float:right;
+    right:-350px;
+    color:white;
+    bottom:-30%;
+    font-size: 15px;
+  }
+    .image-grid-cover {
+        min-height: 300px;
+    }
+    .partner-img{
+        margin:0;
+        margin-left: 18.6%;
+    }
+    .image-grid-item:nth-child(3){
+        display: block;
+    }
+    .image-grid-item:nth-child(4){
+        display: block;
+    }
+    .footer div:nth-child(2){
+        display: block;
+    }
+    .footer div:nth-child(3){
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+    h1 {
+        font-size: 4em !important;
+    }
+    header h3{
+        margin-top: 10%;
+    }
+    .navbar{
+        left:75%;
+        margin-top: 1%;
+    }
+    .navbar li{
+        margin: 5px;
+    }
+    .navbar li a{
+        font-size: 16px;
+    }
+    .section-properties h2{
+        font-size:35px;
+    }
+    .section-choose h2{
+        font-size: 47px;
+        margin-left: -0.8%;
+    }
+    .card{
+        margin-top: 5%;
+        padding: 230px 0;
+        margin-left: 120px;
+    }
+    .card ion-icon{
+        font-size: 55px;
+    }
+    .section h3{
+        top: 100px;
+        left: 13%;
+        font-size: 40px;
+    }
+    .card1 h3{
+        margin-left: 20%;
+    }
+    .section p{
+        margin-top: 20px;
+        font-size: 28px;
+    }
+    .section p:nth-child(3){
+        margin-left: 5px;
+    }
+    .section-partner h2{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+    .section-partner p{
+        font-size: 30px;
+    }
+    /* .footer h2{
+        font-size: smaller;
+    }
+    .footer p{
+        font-size: 10px;
+        line-height: 15px;
+        width: 40%;
+    }
+    .footer div:nth-child(4){
+        position: absolute;
+        margin-top: 2.5%;
+        margin-left: 40%;
+    }
+    .footer div:nth-child(2){
+        display: none;
+    }
+    .footer div:nth-child(3){
+        display: none;
+    }
+    .footer-nav a{
+        font-size: 10px;
+    }
+    .footer ol{
+        margin-top: -45px;
+    }
+    .footer ol li{
+        font-size: 10px;
+    }
+    .footer-nav a{
+        margin-right: 20px;
+    }
+    .footer form{
+        padding: 2px;
+    }
+    .copyright{
+        font-size: smaller;
+        right: -200px;
+    } */
+
+    /*------------------------Footer--------------------*/
+.footer{
+    background-color: #2c3e50;
+    height:50vh;
+    color:white;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  .footer h2{
+    color:#2ecc71;
+  }
+  
+  .footer p{
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  
+  .form-text{
+    font-size: 12px;
+    font-weight: 300;
+  }
+  #submit-btn{
+    color:#7f8c8d;
+    cursor:pointer;
+  }
+  
+  .footer ion-icon{
+    margin-right: 10px;
+    margin-top:15px;
+    margin-bottom:20px;
+    font-size: 30px;
+    color:white;
+  }
+  
+  .footer ion-icon:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.2s;
+    color:#2ecc71;
+  }
+  
+  .footer form input{
+    margin:25px 0;
+    background-color:#34495e;
+    border:none;
+    padding:10px;
+    border-radius:100px;
+    font-size: 20px;
+  }
+  
+  .footer div{
+    float:left;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  
+  
+  .footer-extension{
+    color:white;
+    height:10vh;
+    position:relative;
+    background-color: #34495e;
+  }
+  
+  .footer-nav{
+    position:relative;
+    bottom:-20%;
+    right:65%;
+    color:white;
+  }
+  
+  .footer ol li{
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .footer ol li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+  }
+  
+  .footer ol li a:hover{
+    border-bottom: solid #2ecc71 1px;
+    color:#2ecc71;
+  }
+  
+  .footer-nav li{
+    display: inline-block;
+  }
+  
+  .footer-nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-right:50px;
+  }
+  
+  .footer-nav a:hover{
+    border-bottom: solid #2ecc71 1px;
+    color:#2ecc71;
+  }
+  
+  .copyright{
+    position:relative;
+    float:right;
+    right:-350px;
+    color:white;
+    bottom:-30%;
+    font-size: 15px;
+  }
+    .image-grid-cover {
+        min-height: 300px;
+    }
+    .partner-img{
+        margin:0;
+        margin-left: 18.6%;
+    }
+    .image-grid-item:nth-child(3){
+        display: block;
+    }
+    .image-grid-item:nth-child(4){
+        display: block;
+    }
+    .footer div:nth-child(2){
+        display: block;
+    }
+    .footer div:nth-child(3){
+        display: block;
+    }
+}
