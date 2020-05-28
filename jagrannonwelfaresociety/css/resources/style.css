@@ -84,7 +84,7 @@ ul{
 
 .section-choose {
   height:100vh;
-  background-color:#d3d3d3;
+  background-color:#2ecc71;
   overflow:hidden;
 }
 
@@ -92,7 +92,7 @@ ul{
   position:relative;
   left:41%;
   margin-top: 3%;
-  color:#010;
+  color:#fff;
 }
 
 .card{
@@ -150,7 +150,7 @@ ul{
 .section-properties{
   background-color: #fff;
   overflow:hidden;
-  height: 160vh;
+  height: 130vh;
 }
 
 .section-properties h2{
@@ -168,8 +168,9 @@ ul{
 
 .image-grid-cover {
   width: 100%;
+  background-position: center;
   background-size: cover;
-  min-height: 400px;
+  min-height: 300px;
   position: relative;
   margin-bottom: 30px;
   border-radius: 15px;
@@ -248,6 +249,8 @@ a, a:focus, a:hover {
 .form-text{
   font-size: 12px;
   font-weight: 300;
+  position: absolute;
+  top:230px
 }
 #submit-btn{
   color:#7f8c8d;
