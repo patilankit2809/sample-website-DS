@@ -44,13 +44,13 @@ header h1{
 .navbar ul li a:hover{
     padding:5px 10px;
     background-color: #fff;
-    color:#2ecc71;
+    color:#000;
     border-radius: 2px;
 }
 
 /*----------------Section------------------*/
 .form-section{
-    background-color: azure;
+    background-color:#d3d3d3;
 	padding:0px 0;
 	position:relative;
     height:100vh;
